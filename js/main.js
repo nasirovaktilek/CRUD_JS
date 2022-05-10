@@ -161,11 +161,3 @@ btnSave.addEventListener("click", () => {
   mainModal.style.display = "none";
   render();
 });
-
-// inpEdit.addEventListener("focus", () => {
-//   inpEdit.style.backgroundColor = "rgb(239, 220, 75)";
-// });
-
-// input.addEventListener("focus", () => {
-//   input.style.backgroundColor = "rgb(45, 162, 162)";
-// });
