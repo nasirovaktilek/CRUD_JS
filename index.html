@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="auth-form">
+          <div class="field">
+            <span>Contact book</span>
+            <br />
+            <input
+              type="text"
+              class="task-input"
+              id="inp1"
+              placeholder="name"
+            />
+            <br />
+            <input
+              type="text"
+              class="task-input"
+              id="inp2"
+              placeholder="e-mail"
+            />
+            <br />
+            <input type="text" class="task-input" id="inp3" placeholder="url" />
+          </div>
+          <div class="field">
+            <button class="btn">Добавить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-modal">
+      <div class="inner-modal">
+        <div class="close">
+          <button class="btn-closer" id="btnCloser">Close</button>
+        </div>
+        <input type="text" class="inp-edit1" />
+        <br />
+        <br />
+        <input type="text" class="inp-edit2" />
+        <br />
+        <br />
+        <input type="text" class="inp-edit3" />
+        <br />
+        <br />
+        <button class="btn-save" id="btnSave">Save</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
